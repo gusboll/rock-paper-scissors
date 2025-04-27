@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 175px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+
+.header{
+    font-weight: 700;
+    display: flex;
+    margin: 25px 50px 50px 50px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 50px 50px;
+    padding: 5px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.playerwins, .computerwins, p{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px;
+}
+
+button{
+    width: 90px;
+    border-radius: 15px;
+    color: white;
+    background-color: darkslateblue;
+
+}
+
+.choices{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+

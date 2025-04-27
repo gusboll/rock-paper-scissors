@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jankenpon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js" defer></script>
 </head>
 <body>
-    <script src="script1.js"></script>
+    <!-- header with the name of the game-->
+    <div class="header">Rock, Paper and Scissors</div>
+    <!-- space-->
+    <div class="middle">
+        <!-- row with the three choices-->
+        <p>Choose your tool for the best of five!</p>
+        <div class="choices">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        
+        <!-- below the row, how much did the player win-->
+        <div class="playerwins">You have won 0 times!</div>
+        <!-- below, how much did the machine win-->
+        <div class="computerwins">The computer has won 0 times!</div>
+    </div>
 
+    <!-- on the footer, credits to me and top project-->
+    <div class="footer">
+        <p>Copyright @ 2025 Augusto Boll</p>
+        <p>The Odin Project</p>
+    </div>
 </body>
 </html>
